@@ -24,8 +24,15 @@
       </p>
       <h2>Dein Luca</h2>
       <img src="img/bild1.png" id="bild" />
+        <audio autoplay hidden id="player">
+        <source src="music/music1.mp3" type="audio/mpeg">
+        </audio>
     </div>
     <script src="name.js"></script>
     <script src="schnee.js"></script>
+    <script>
+        var audio = document.getElementById("player");
+        audio.volume = 0.2;
+      </script>
   </body>
 </html>
